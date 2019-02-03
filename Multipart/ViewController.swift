@@ -35,6 +35,7 @@ class ViewController: UIViewController {
     @objc func callNetwork() {
         
         if let resourcePath = Bundle.main.resourcePath {
+            // FIXME: You should take the path from file user chose in image picker
             let imgName = "Morrowind.png"
             let path = resourcePath + "/" + imgName
             
